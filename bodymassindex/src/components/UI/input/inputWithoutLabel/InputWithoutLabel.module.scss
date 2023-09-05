@@ -1,0 +1,41 @@
+.inputContainer{
+    display: flex;
+    align-items: center; /* Vertically align items */
+
+    .inputWrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    input {
+        padding: 20px 24px;
+        border: 1px solid #ccc;
+        width: 100%;
+        border-radius: 12px;
+        color: #253347;
+        /* Heading M */
+        font-family: "Inter Regular";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.2px;
+
+    }
+
+    .unit {
+        position: absolute;
+        right: 24px; /* Adjust the right offset as needed */
+        font-weight: bold;
+        color: #345FF6;
+        /* Heading M */
+        font-family: "Inter Regular";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.2px;
+    }
+}

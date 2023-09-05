@@ -1,0 +1,18 @@
+$primary-color:#345FF6;
+$secondary-color:#253347;
+$tertiary-color:#5E6E85;
+$background:#D8E2E7;
+
+$primary-gradient:linear-gradient(290deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 100%);
+
+@font-face{
+    font-family:"Inter Regular";
+    src: local("Inter Regular"), url('../assets/fonts/static/Inter-Regular.ttf') format("truetype")
+}
+@font-face{
+    font-family:"Inter SemiBold";
+    src: local("Inter SemiBold"), url('../assets/fonts/static/Inter-SemiBold.ttf') format("truetype")
+}
+
+$main-font-regular:"Inter Regular";
+$main-font-semibold:"Inter SemiBold";

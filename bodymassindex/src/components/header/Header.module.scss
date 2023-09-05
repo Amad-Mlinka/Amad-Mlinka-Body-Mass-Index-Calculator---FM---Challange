@@ -1,0 +1,23 @@
+@import '../../sass/variables';
+$main-font:"Inter";
+.heading{
+    background: $primary-gradient;
+    border-radius: 0px 0px 35px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 24px 240px 24px;
+    .logo{
+        width: 40px;
+    }
+
+    .text{
+        text-align: center;
+        padding: 8px;
+    }
+
+    .subText{
+        text-align: center;
+    }
+}
